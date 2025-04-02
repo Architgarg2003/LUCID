@@ -44,11 +44,11 @@ export function SidebarDemo({ children }: SidebarProps) {
             href: "/wishlist",
             icon: <TiStarOutline className="text-white dark:text-neutral-200 h-5 w-5 flex-shrink-0" />,
         },
-        // {
-        //     label: "Stage",
-        //     href: "/Forum",
-        //     icon: <Joystick className="text-white dark:text-neutral-200 h-5 w-5 flex-shrink-0" />,
-        // },
+        {
+            label: "Notes",
+            href: "/Forum",
+            icon: <Joystick className="text-white dark:text-neutral-200 h-5 w-5 flex-shrink-0" />,
+        },
     ], []);
 
     return (
