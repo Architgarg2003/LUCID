@@ -449,12 +449,12 @@ export default function ForumPage() {
           <div className="h-full flex items-center justify-center bg-gray-50">
             <div className="bg-white border border-gray-200 rounded-lg shadow-sm p-6 w-96">
               <div className="mb-4">
-                <h2 className="text-xl font-bold">Welcome to Forum Notes</h2>
+                <h2 className="text-xl font-bold">Welcome to Lucid Notes</h2>
                 <p className="text-gray-500 text-sm">Create a new note to get started</p>
               </div>
               <div>
                 <p className="text-gray-500 mb-4">
-                  This is a simple note-taking application. Create and manage your notes just like in Notion.
+                  Take notes, organize your thoughts, and Shine.
                 </p>
                 <button 
                   onClick={createNewNote} 
